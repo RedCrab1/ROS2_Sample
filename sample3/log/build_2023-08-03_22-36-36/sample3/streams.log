@@ -1,0 +1,49 @@
+[0.015s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2
+[0.061s] [35m[1mScanning dependencies of target sample3[0m
+[0.089s] [ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[0.093s] [ 66%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/thread_sample.cpp.o[0m
+[1.160s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.160s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karvc[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[1.160s]    18 |  if([01;31m[Karvc[m[K >= 3)
+[1.160s]       |     [01;31m[K^~~~[m[K
+[1.160s]       |     [32m[Kargc[m[K
+[1.160s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+[1.160s]    24 |   std::string multi_flag = static_cast<[01;31m[Kstd[m[K:::string>(argv[2]);
+[1.161s]       |                                        [01;31m[K^~~[m[K
+[1.161s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’
+[1.161s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’
+[1.161s]    24 |   std::string multi_flag = static_cast<[01;31m[Ks[m[K[32m[Ktd[m[K:::string>(argv[2]);
+[1.161s]       |                                        [01;31m[K^[m[K[32m[K~~[m[K
+[1.161s]       |                                        [32m[K([m[K
+[1.161s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:45:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:[m[K’ token
+[1.161s]    24 |   std::string multi_flag = static_cast<std::[01;31m[K:[m[Kstring>(argv[2]);
+[1.161s]       |                                             [01;31m[K^[m[K
+[1.161s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K:[m[K’ token
+[1.161s]    24 |   std::string multi_flag = static_cast<std[01;31m[K:[m[K:[32m[K:[m[Kstring>(argv[2]);
+[1.161s]       |                                           [01;31m[K^[m[K [32m[K~[m[K
+[1.162s]       |                                           [32m[K)[m[K
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:43:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[1.162s]    43 |  for (int i = node_count; i--[01;31m[K)[m[K{
+[1.162s]       |                              [01;31m[K^[m[K
+[1.162s]       |                              [32m[K;[m[K
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:[m[K In constructor ‘[01m[KThreadSample::ThreadSample(const string&)[m[K’:
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:18:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.162s]    18 |  print_timer_ = this->create_wall_timer([01;31m[K500ms[m[K, printtimer_callback);
+[1.163s]       |                                         [01;31m[K^~~~~[m[K
+[1.165s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutoro_s[m[K’ was not declared in this scope; did you mean ‘[01m[Kexecutor_s[m[K’?
+[1.165s]    53 |    [01;31m[Kexecutoro_s[m[K.add_node(node_vector.back()->get_node-base_interface());
+[1.165s]       |    [01;31m[K^~~~~~~~~~~[m[K
+[1.166s]       |    [32m[Kexecutor_s[m[K
+[1.166s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ThreadSample[m[K’ {aka ‘[01m[Kclass ThreadSample[m[K’} has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[Kget_name[m[K’?
+[1.166s]    53 |    executoro_s.add_node(node_vector.back()->[01;31m[Kget_node[m[K-base_interface());
+[1.166s]       |                                             [01;31m[K^~~~~~~~[m[K
+[1.166s]       |                                             [32m[Kget_name[m[K
+[1.167s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interface[m[K’ was not declared in this scope
+[1.167s]    53 |    executoro_s.add_node(node_vector.back()->get_node-[01;31m[Kbase_interface[m[K());
+[1.167s]       |                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.469s] make[2]: *** [CMakeFiles/sample3.dir/build.make:76: CMakeFiles/sample3.dir/src/thread_sample.cpp.o] Error 1
+[1.469s] make[2]: *** Waiting for unfinished jobs....
+[1.491s] make[2]: *** [CMakeFiles/sample3.dir/build.make:63: CMakeFiles/sample3.dir/src/main.cpp.o] Error 1
+[1.491s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sample3.dir/all] Error 2
+[1.491s] make: *** [Makefile:141: all] Error 2
+[1.495s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2

@@ -1,0 +1,72 @@
+[35m[1mScanning dependencies of target sample3[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/thread_sample.cpp.o[0m
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:15:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’; did you mean ‘[01m[KSingleThreadedExecutor[m[K’?
+   15 |  rclcpp::executors::[01;31m[KSingleThreadExecutor[m[K executor_s;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[KSingleThreadedExecutor[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:16:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiThreadExecutor[m[K’ is not a member of ‘[01m[Krclcpp::executors[m[K’; did you mean ‘[01m[KMultiThreadedExecutor[m[K’?
+   16 |  rclcpp::executors::[01;31m[KMultiThreadExecutor[m[K executor_m;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[KMultiThreadedExecutor[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Karvc[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+   18 |  if([01;31m[Karvc[m[K >= 3)
+      |     [01;31m[K^~~~[m[K
+      |     [32m[Kargc[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+   24 |   std::string multi_flag = static_cast<[01;31m[Kstd[m[K:::string>(argv[2]);
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’
+   24 |   std::string multi_flag = static_cast<[01;31m[Ks[m[K[32m[Ktd[m[K:::string>(argv[2]);
+      |                                        [01;31m[K^[m[K[32m[K~~[m[K
+      |                                        [32m[K([m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:45:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:[m[K’ token
+   24 |   std::string multi_flag = static_cast<std::[01;31m[K:[m[Kstring>(argv[2]);
+      |                                             [01;31m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:24:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K:[m[K’ token
+   24 |   std::string multi_flag = static_cast<std[01;31m[K:[m[K:[32m[K:[m[Kstring>(argv[2]);
+      |                                           [01;31m[K^[m[K [32m[K~[m[K
+      |                                           [32m[K)[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:43:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   43 |  for (int i = node_count; i--[01;31m[K)[m[K{
+      |                              [01;31m[K^[m[K
+      |                              [32m[K;[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:49:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_m[m[K’ was not declared in this scope
+   49 |    [01;31m[Kexecutor_m[m[K.add_node(node_vector.back()->get_node_base_interface());
+      |    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutoro_s[m[K’ was not declared in this scope
+   53 |    [01;31m[Kexecutoro_s[m[K.add_node(node_vector.back()->get_node-base_interface());
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ThreadSample[m[K’ {aka ‘[01m[Kclass ThreadSample[m[K’} has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[Kget_name[m[K’?
+   53 |    executoro_s.add_node(node_vector.back()->[01;31m[Kget_node[m[K-base_interface());
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[Kget_name[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interface[m[K’ was not declared in this scope
+   53 |    executoro_s.add_node(node_vector.back()->get_node-[01;31m[Kbase_interface[m[K());
+      |                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_m[m[K’ was not declared in this scope
+   59 |   [01;31m[Kexecutor_m[m[K.spin();
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_s[m[K’ was not declared in this scope
+   63 |   [01;31m[Kexecutor_s[m[K.spin();
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KThreadSample::ThreadSample(std::string)[m[K’
+    9 | [01;31m[KThreadSample[m[K::ThreadSample(const std::string node_name): rclcpp::Node(node_name)
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:1[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KThreadSample::ThreadSample(const ThreadSample&)[m[K’
+    7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:10:12:[m[K [01;36m[Knote: [m[K                ‘[01m[KThreadSample::ThreadSample(const string&)[m[K’
+   10 |   explicit [01;36m[KThreadSample[m[K(const std::string& node_name);
+      |            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ThreadSample[m[K’ defined here
+    7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sample3.dir/build.make:63: CMakeFiles/sample3.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/sample3.dir/build.make:76: CMakeFiles/sample3.dir/src/thread_sample.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sample3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

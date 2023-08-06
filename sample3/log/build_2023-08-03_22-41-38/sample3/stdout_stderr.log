@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target sample3[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/thread_sample.cpp.o[0m
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:[m[K In constructor ‘[01m[KThreadSample::ThreadSample(const string&)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:18:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   18 |  print_timer_ = this->create_wall_timer([01;31m[K1s[m[K, printtimer_callback);
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:53:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutoro_s[m[K’ was not declared in this scope; did you mean ‘[01m[Kexecutor_s[m[K’?
+   53 |    [01;31m[Kexecutoro_s[m[K.add_node(node_vector.back()->get_node_base_interface());
+      |    [01;31m[K^~~~~~~~~~~[m[K
+      |    [32m[Kexecutor_s[m[K
+make[2]: *** [CMakeFiles/sample3.dir/build.make:76: CMakeFiles/sample3.dir/src/thread_sample.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/sample3.dir/build.make:63: CMakeFiles/sample3.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sample3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

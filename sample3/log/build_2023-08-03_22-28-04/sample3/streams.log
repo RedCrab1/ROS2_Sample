@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2
+[0.062s] [35m[1mScanning dependencies of target sample3[0m
+[0.089s] [ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[0.093s] [ 66%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/thread_sample.cpp.o[0m
+[0.209s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmemeory: No such file or directory
+[0.209s]     2 | #include [01;31m[K<memeory>[m[K
+[0.209s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.210s] compilation terminated.
+[0.212s] make[2]: *** [CMakeFiles/sample3.dir/build.make:63: CMakeFiles/sample3.dir/src/main.cpp.o] Error 1
+[0.212s] make[2]: *** Waiting for unfinished jobs....
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KThreadSample::ThreadSample(std::string)[m[K’
+[1.162s]     9 | [01;31m[KThreadSample[m[K::ThreadSample(const std::string node_name): rclcpp::Node(node_name)
+[1.162s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[1.162s] In file included from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:1[m[K:
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KThreadSample::ThreadSample(const ThreadSample&)[m[K’
+[1.162s]     7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+[1.162s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:10:12:[m[K [01;36m[Knote: [m[K                ‘[01m[KThreadSample::ThreadSample(const string&)[m[K’
+[1.162s]    10 |   explicit [01;36m[KThreadSample[m[K(const std::string& node_name);
+[1.162s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[1.162s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ThreadSample[m[K’ defined here
+[1.162s]     7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+[1.162s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.527s] make[2]: *** [CMakeFiles/sample3.dir/build.make:76: CMakeFiles/sample3.dir/src/thread_sample.cpp.o] Error 1
+[1.527s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sample3.dir/all] Error 2
+[1.529s] make: *** [Makefile:141: all] Error 2
+[1.529s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2

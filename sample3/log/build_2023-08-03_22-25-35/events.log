@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (sample3) JobQueued: {'identifier': 'sample3', 'dependencies': OrderedDict()}
+[0.000974] (sample3) JobStarted: {'identifier': 'sample3'}
+[0.011328] (sample3) JobProgress: {'identifier': 'sample3', 'progress': 'cmake'}
+[0.012033] (sample3) JobProgress: {'identifier': 'sample3', 'progress': 'build'}
+[0.012743] (sample3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3', '--', '-j2', '-l2'], 'cwd': '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangcb'), ('SSH_CLIENT', '192.168.31.1 63675 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangcb'), ('OLDPWD', '/home/yangcb/Desktop/ROS2_Sample'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/yangcb/Desktop/ROS2_Sample/sample3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yangcb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '14'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3'), ('SSH_CONNECTION', '192.168.31.1 63675 192.168.31.129 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3:/opt/ros/foxy')]), 'shell': False}
+[0.056547] (sample3) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.077563] (sample3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098467] (-) TimerEvent: {}
+[0.199175] (-) TimerEvent: {}
+[0.234225] (sample3) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.275055] (sample3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.278450] (sample3) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.301636] (-) TimerEvent: {}
+[0.388639] (sample3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.406441] (-) TimerEvent: {}
+[0.430998] (sample3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.432162] (sample3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.511036] (-) TimerEvent: {}
+[0.553862] (sample3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.615911] (-) TimerEvent: {}
+[0.617367] (sample3) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.618350] (sample3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.618494] (sample3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include>\n'}
+[0.618577] (sample3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.619372] (sample3) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.619456] (sample3) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.619907] (sample3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.620744] (sample3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.620829] (sample3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.621066] (sample3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.623484] (sample3) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.625165] (sample3) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[0.625315] (sample3) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.625378] (sample3) StderrLine: {'line': b'\n'}
+[0.625432] (sample3) StderrLine: {'line': b'    src/*.cpp\n'}
+[0.625484] (sample3) StderrLine: {'line': b'\n'}
+[0.625535] (sample3) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[0.625586] (sample3) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[0.625635] (sample3) StderrLine: {'line': b'\n'}
+[0.625684] (sample3) StderrLine: {'line': b'\n'}
+[0.628277] (sample3) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (add_executable):\n'}
+[0.628435] (sample3) StderrLine: {'line': b'  No SOURCES given to target: sample3\n'}
+[0.628502] (sample3) StderrLine: {'line': b'\n'}
+[0.628558] (sample3) StderrLine: {'line': b'\n'}
+[0.628665] (sample3) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.632728] (sample3) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[0.634775] (sample3) CommandEnded: {'returncode': 2}
+[0.674118] (sample3) JobEnded: {'identifier': 'sample3', 'rc': 2}
+[0.692639] (-) EventReactorShutdown: {}

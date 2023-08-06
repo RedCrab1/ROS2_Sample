@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target sample3[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/thread_sample.cpp.o[0m
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmemeory: No such file or directory
+    2 | #include [01;31m[K<memeory>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/sample3.dir/build.make:63: CMakeFiles/sample3.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KThreadSample::ThreadSample(std::string)[m[K’
+    9 | [01;31m[KThreadSample[m[K::ThreadSample(const std::string node_name): rclcpp::Node(node_name)
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/src/thread_sample.cpp:1[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KThreadSample::ThreadSample(const ThreadSample&)[m[K’
+    7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:10:12:[m[K [01;36m[Knote: [m[K                ‘[01m[KThreadSample::ThreadSample(const string&)[m[K’
+   10 |   explicit [01;36m[KThreadSample[m[K(const std::string& node_name);
+      |            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample3/src/sample3/include/sample3/thread_sample.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ThreadSample[m[K’ defined here
+    7 | class [01;36m[KThreadSample[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sample3.dir/build.make:76: CMakeFiles/sample3.dir/src/thread_sample.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sample3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

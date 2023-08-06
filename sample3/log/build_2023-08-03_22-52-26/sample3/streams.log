@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2
+[0.077s] [35m[1mScanning dependencies of target sample3[0m
+[0.107s] [ 33%] [32mBuilding CXX object CMakeFiles/sample3.dir/src/main.cpp.o[0m
+[1.682s] [ 66%] [32m[1mLinking CXX executable sample3[0m
+[1.791s] [100%] Built target sample3
+[1.804s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3 -- -j2 -l2
+[1.846s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3
+[1.856s] -- Install configuration: ""
+[1.856s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/lib/sample3/sample3
+[1.857s] -- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/lib/sample3/sample3" to ""
+[1.857s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/ament_index/resource_index/package_run_dependencies/sample3
+[1.857s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/ament_index/resource_index/parent_prefix_path/sample3
+[1.858s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/environment/ament_prefix_path.sh
+[1.858s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/environment/ament_prefix_path.dsv
+[1.858s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/environment/path.sh
+[1.858s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/environment/path.dsv
+[1.858s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/local_setup.bash
+[1.859s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/local_setup.sh
+[1.859s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/local_setup.zsh
+[1.859s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/local_setup.dsv
+[1.859s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/package.dsv
+[1.859s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/ament_index/resource_index/packages/sample3
+[1.860s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/cmake/sample3Config.cmake
+[1.860s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/cmake/sample3Config-version.cmake
+[1.860s] -- Up-to-date: /home/yangcb/Desktop/ROS2_Sample/sample3/install/sample3/share/sample3/package.xml
+[1.864s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/sample3/build/sample3
