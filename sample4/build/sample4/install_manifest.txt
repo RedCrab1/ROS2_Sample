@@ -1,0 +1,16 @@
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/package_run_dependencies/sample4
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/parent_prefix_path/sample4
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.sh
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.dsv
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.sh
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.dsv
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.bash
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.sh
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.zsh
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.dsv
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.dsv
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/packages/sample4
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config.cmake
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config-version.cmake
+/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.xml

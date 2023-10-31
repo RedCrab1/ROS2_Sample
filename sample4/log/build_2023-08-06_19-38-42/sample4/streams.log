@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2
+[0.057s] [35m[1mScanning dependencies of target sample4[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+[1.169s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid another_executor()[m[K’:
+[1.169s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_node[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_node_[m[K’?
+[1.169s]    62 |  executor_.add_node([01;31m[Ksub_node[m[K);
+[1.169s]       |                     [01;31m[K^~~~~~~~[m[K
+[1.169s]       |                     [32m[Ksub_node_[m[K
+[2.461s] make[2]: *** [CMakeFiles/sample4.dir/build.make:63: CMakeFiles/sample4.dir/src/sample4.cpp.o] Error 1
+[2.461s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sample4.dir/all] Error 2
+[2.461s] make: *** [Makefile:141: all] Error 2
+[2.463s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2

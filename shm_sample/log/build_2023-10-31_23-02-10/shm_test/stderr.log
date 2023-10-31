@@ -1,0 +1,16 @@
+[01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+   28 |  rclcpp::[01;31m[KTimeBase[m[K::SharedPtr timer_;
+      |          [01;31m[K^~~~~~~~[m[K
+      |          [32m[KTimerBase[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:11:12:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemDefaultsQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSystemDefaultsQoS[m[K’?
+   11 |    rclcpp::[01;31m[KSystemDefaultsQos[m[K());
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |            [32m[KSystemDefaultsQoS[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   24 |   [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, topictimer_callback);
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktimer_t[m[K
+make[2]: *** [CMakeFiles/shm_test.dir/build.make:63: CMakeFiles/shm_test.dir/src/shm_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/shm_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

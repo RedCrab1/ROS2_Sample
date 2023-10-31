@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target shm_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shm_test.dir/src/shm_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable shm_test[0m
+[100%] Built target shm_test
+-- Install configuration: ""
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/shm_test/shm_test
+-- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/shm_test/shm_test" to ""
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/package_run_dependencies/shm_test
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/parent_prefix_path/shm_test
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/ament_prefix_path.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/ament_prefix_path.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/path.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/path.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.bash
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.zsh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/packages/shm_test
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/cmake/shm_testConfig.cmake
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/cmake/shm_testConfig-version.cmake
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.xml

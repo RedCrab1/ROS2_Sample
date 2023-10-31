@@ -1,0 +1,126 @@
+[0.307s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.307s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb0741d1220>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb0741d1220>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb0741d1760>)
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yangcb/Desktop/ROS2_Sample/shm_sample'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(shm_test) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'shm_test' with type 'ros.ament_cmake' and name 'shm_test'
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/foxy
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'shm_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'shm_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test', 'merge_install': False, 'path': '/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test', 'symlink_install': False, 'test_result_base': None}
+[0.452s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test'
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+[5.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+[5.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test
+[5.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shm_test)
+[5.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test
+[5.782s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test' for CMake module files
+[5.783s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test' for CMake config files
+[5.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_test', 'cmake_prefix_path')
+[5.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.ps1'
+[5.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.dsv'
+[5.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.sh'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/bin'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/pkgconfig/shm_test.pc'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/python3.8/site-packages'
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/bin'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.ps1'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.dsv'
+[5.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.sh'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.bash'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.zsh'
+[5.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/colcon-core/packages/shm_test)
+[5.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shm_test)
+[5.825s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test' for CMake module files
+[5.826s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test' for CMake config files
+[5.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('shm_test', 'cmake_prefix_path')
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.ps1'
+[5.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.dsv'
+[5.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/hook/cmake_prefix_path.sh'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/bin'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/pkgconfig/shm_test.pc'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/python3.8/site-packages'
+[5.830s] Level 1:colcon.colcon_core.environment:checking '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/bin'
+[5.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.ps1'
+[5.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.dsv'
+[5.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.sh'
+[5.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.bash'
+[5.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.zsh'
+[5.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/colcon-core/packages/shm_test)
+[5.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.835s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.840s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/local_setup.ps1'
+[5.857s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/_local_setup_util_ps1.py'
+[5.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/setup.ps1'
+[5.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/local_setup.sh'
+[5.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/_local_setup_util_sh.py'
+[5.860s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/setup.sh'
+[5.861s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/local_setup.bash'
+[5.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/setup.bash'
+[5.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/local_setup.zsh'
+[5.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/setup.zsh'

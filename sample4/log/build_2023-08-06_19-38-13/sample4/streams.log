@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2
+[0.059s] [35m[1mScanning dependencies of target sample4[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+[1.168s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid another_executor()[m[K’:
+[1.168s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:61:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared_ptr[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+[1.168s]    61 |  auto sub_node_ = std::[01;31m[Kmake_shared_ptr[m[K<SubNode>("topic_sub");
+[1.168s]       |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.168s]       |                        [32m[Kmake_shared[m[K
+[1.168s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:61:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.168s]    61 |  auto sub_node_ = std::make_shared_ptr<SubNode[01;31m[K>[m[K("topic_sub");
+[1.168s]       |                                               [01;31m[K^[m[K
+[1.169s] [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_node[m[K’ was not declared in this scope
+[1.169s]    62 |  executor_.add_node([01;31m[Ksub_node[m[K);
+[1.169s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.527s] make[2]: *** [CMakeFiles/sample4.dir/build.make:63: CMakeFiles/sample4.dir/src/sample4.cpp.o] Error 1
+[2.528s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sample4.dir/all] Error 2
+[2.528s] make: *** [Makefile:141: all] Error 2
+[2.529s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2

@@ -1,0 +1,94 @@
+[35m[1mScanning dependencies of target sample4[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In lambda function:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:24:52:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kuintptr_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   24 |     RCLCPP_INFO(this->get_logger(), [32m[K"pub:Addr is:"[m[K [01;31m[K<<[m[K [34m[Kreinterpret_cast<std::uintptr_t>(timestamp_.get())[m[K);
+      |                                     [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                     [32m[K|[m[K                 [34m[K|[m[K
+      |                                     [32m[Kconst char [13][m[K   [34m[Kuintptr_t {aka long unsigned int}[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K At global scope:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:37:25:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[Krclcpp[m[K’
+   37 | class SubNode : publish [01;31m[Krclcpp[m[K::Node
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:37:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Krclcpp[m[K’
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:39:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   39 |  [01;31m[Kpublic[m[K:
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:39:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:38:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   38 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:49:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   49 |  [01;31m[Kprivate[m[K:
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid count_sub_callback(builtin_interfaces::msg::Time_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   53 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K At global scope:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:56:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   56 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid another_executor()[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:61:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared_ptr[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+   61 |  auto sub_node_ = std::[01;31m[Kmake_shared_ptr[m[K<SubNode>("topic_sub");
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kmake_shared[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:61:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   61 |  auto sub_node_ = std::make_shared_ptr<SubNode[01;31m[K>[m[K("topic_sub");
+      |                                               [01;31m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_node[m[K’ was not declared in this scope
+   62 |  executor_.add_node([01;31m[Ksub_node[m[K);
+      |                     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sample4.dir/build.make:63: CMakeFiles/sample4.dir/src/sample4.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sample4.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2
+[0.057s] [35m[1mScanning dependencies of target sample4[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+[4.568s] [100%] [32m[1mLinking CXX executable sample4[0m
+[4.822s] [100%] Built target sample4
+[4.835s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2
+[4.870s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4
+[4.880s] -- Install configuration: ""
+[4.880s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4
+[4.883s] -- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4" to ""
+[4.883s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/package_run_dependencies/sample4
+[4.883s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/parent_prefix_path/sample4
+[4.884s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.sh
+[4.884s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.dsv
+[4.884s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.sh
+[4.885s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.dsv
+[4.885s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.bash
+[4.885s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.sh
+[4.886s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.zsh
+[4.886s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.dsv
+[4.886s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.dsv
+[4.887s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/packages/sample4
+[4.887s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config.cmake
+[4.887s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config-version.cmake
+[4.887s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.xml
+[4.890s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4

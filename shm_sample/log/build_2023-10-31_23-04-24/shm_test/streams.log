@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+[0.068s] [35m[1mScanning dependencies of target shm_test[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/shm_test.dir/src/shm_test.cpp.o[0m
+[5.044s] [100%] [32m[1mLinking CXX executable shm_test[0m
+[5.234s] [100%] Built target shm_test
+[5.245s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+[5.303s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test
+[5.313s] -- Install configuration: ""
+[5.314s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/shm_test/shm_test
+[5.314s] -- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/lib/shm_test/shm_test" to ""
+[5.314s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/package_run_dependencies/shm_test
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/parent_prefix_path/shm_test
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/ament_prefix_path.sh
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/ament_prefix_path.dsv
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/path.sh
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/environment/path.dsv
+[5.315s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.bash
+[5.316s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.sh
+[5.316s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.zsh
+[5.316s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/local_setup.dsv
+[5.316s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.dsv
+[5.316s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/ament_index/resource_index/packages/shm_test
+[5.317s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/cmake/shm_testConfig.cmake
+[5.317s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/cmake/shm_testConfig-version.cmake
+[5.317s] -- Installing: /home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test/share/shm_test/package.xml
+[5.320s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test

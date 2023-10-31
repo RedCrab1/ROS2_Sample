@@ -1,0 +1,141 @@
+[35m[1mScanning dependencies of target sample4[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In constructor ‘[01m[KPubNode::PubNode(const string&)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:12:28:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeOptios[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KNodeOptions[m[K’?
+   12 |    Node(node_name, rclcpp::[01;31m[KNodeOptios[m[K().use_intra_process_commons(true))
+      |                            [01;31m[K^~~~~~~~~~[m[K
+      |                            [32m[KNodeOptions[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In lambda function:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuildin_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+   22 |      std::make_unique<[01;31m[Kbuildin_interfaces[m[K::Time>(this->get_clock()->now());
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kbuiltin_interfaces[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:11:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   22 |      std::[01;31m[Kmake_unique<buildin_interfaces::Time>[m[K(this->get_clock()->now());
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(rclcpp::Time)[m[K’
+   22 |      std::make_unique<buildin_interfaces::Time>(this->get_clock()->now()[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+  856 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |      std::make_unique<buildin_interfaces::Time>(this->get_clock()->now()[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+  862 |     [01;36m[Kmake_unique[m[K(size_t __num)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |      std::make_unique<buildin_interfaces::Time>(this->get_clock()->now()[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ <deleted>
+  868 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:22:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |      std::make_unique<buildin_interfaces::Time>(this->get_clock()->now()[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:23:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kunitptr_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Knullptr_t[m[K’?
+   23 |     RCLCPP_INFO(this->get_logger(), "pub:Addr is:" << reinterpret_cast<std::[01;31m[Kunitptr_t[m[K>(timestamp_.get()));
+      |                                                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:24:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimestamp_[m[K’?
+   24 |     publisher_->publish(std::move([01;31m[Ktimestamp[m[K));
+      |                                   [01;31m[K^~~~~~~~~[m[K
+      |                                   [32m[Ktimestamp_[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K At global scope:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:36:25:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[Krclcpp[m[K’
+   36 | class SubNode : publish [01;31m[Krclcpp[m[K::Node
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:36:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Krclcpp[m[K’
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:38:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   38 |  [01;31m[Kpublic[m[K:
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:38:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:37:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   37 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:48:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   48 |  [01;31m[Kprivate[m[K:
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid count_sub_callback(builtin_interfaces::msg::Time_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |    [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "sub::Addr is: " <<
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:53:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kunitptr_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Knullptr_t[m[K’?
+   53 |      reinterpret_cast<std::[01;31m[Kunitptr_t[m[K>(msg.get()));
+      |                            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:5[m[K:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:52:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |    RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "sub::Addr is: " <<
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K At global scope:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:55:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   55 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:[m[K In function ‘[01m[Kvoid another_executor()[m[K’:
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:60:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared_ptr[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+   60 |  auto sub_node_ = std::[01;31m[Kmake_shared_ptr[m[K<SubNode>("topic_sub");
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kmake_shared[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:60:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   60 |  auto sub_node_ = std::make_shared_ptr<SubNode[01;31m[K>[m[K("topic_sub");
+      |                                               [01;31m[K^[m[K
+[01m[K/home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4/src/sample4.cpp:61:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_node[m[K’ was not declared in this scope
+   61 |  executor_.add_node([01;31m[Ksub_node[m[K);
+      |                     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sample4.dir/build.make:63: CMakeFiles/sample4.dir/src/sample4.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sample4.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

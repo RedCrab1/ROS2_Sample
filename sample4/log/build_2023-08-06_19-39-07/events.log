@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (sample4) JobQueued: {'identifier': 'sample4', 'dependencies': OrderedDict()}
+[0.000332] (sample4) JobStarted: {'identifier': 'sample4'}
+[0.010562] (sample4) JobProgress: {'identifier': 'sample4', 'progress': 'cmake'}
+[0.012081] (sample4) JobProgress: {'identifier': 'sample4', 'progress': 'build'}
+[0.012137] (sample4) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4', '--', '-j2', '-l2'], 'cwd': '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangcb'), ('SSH_CLIENT', '192.168.31.1 52464 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangcb'), ('OLDPWD', '/home/yangcb/Desktop/ROS2_Sample/sample4/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yangcb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '55'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4'), ('SSH_CONNECTION', '192.168.31.1 52464 192.168.31.129 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.057345] (sample4) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sample4\x1b[0m\n'}
+[0.083122] (sample4) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o\x1b[0m\n'}
+[0.099037] (-) TimerEvent: {}
+[0.199793] (-) TimerEvent: {}
+[0.300517] (-) TimerEvent: {}
+[0.401249] (-) TimerEvent: {}
+[0.501975] (-) TimerEvent: {}
+[0.602742] (-) TimerEvent: {}
+[0.703572] (-) TimerEvent: {}
+[0.804337] (-) TimerEvent: {}
+[0.905366] (-) TimerEvent: {}
+[1.006115] (-) TimerEvent: {}
+[1.106836] (-) TimerEvent: {}
+[1.207566] (-) TimerEvent: {}
+[1.308264] (-) TimerEvent: {}
+[1.409071] (-) TimerEvent: {}
+[1.509724] (-) TimerEvent: {}
+[1.610451] (-) TimerEvent: {}
+[1.711200] (-) TimerEvent: {}
+[1.812405] (-) TimerEvent: {}
+[1.913147] (-) TimerEvent: {}
+[2.013880] (-) TimerEvent: {}
+[2.114580] (-) TimerEvent: {}
+[2.215402] (-) TimerEvent: {}
+[2.320449] (-) TimerEvent: {}
+[2.425002] (-) TimerEvent: {}
+[2.530044] (-) TimerEvent: {}
+[2.635028] (-) TimerEvent: {}
+[2.739374] (-) TimerEvent: {}
+[2.844711] (-) TimerEvent: {}
+[2.949544] (-) TimerEvent: {}
+[3.051803] (-) TimerEvent: {}
+[3.158954] (-) TimerEvent: {}
+[3.263383] (-) TimerEvent: {}
+[3.368485] (-) TimerEvent: {}
+[3.471924] (-) TimerEvent: {}
+[3.578234] (-) TimerEvent: {}
+[3.682743] (-) TimerEvent: {}
+[3.787315] (-) TimerEvent: {}
+[3.892277] (-) TimerEvent: {}
+[3.997142] (-) TimerEvent: {}
+[4.102699] (-) TimerEvent: {}
+[4.207330] (-) TimerEvent: {}
+[4.309423] (-) TimerEvent: {}
+[4.417809] (-) TimerEvent: {}
+[4.522524] (-) TimerEvent: {}
+[4.568642] (sample4) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sample4\x1b[0m\n'}
+[4.627440] (-) TimerEvent: {}
+[4.734012] (-) TimerEvent: {}
+[4.822454] (sample4) StdoutLine: {'line': b'[100%] Built target sample4\n'}
+[4.835262] (sample4) CommandEnded: {'returncode': 0}
+[4.835986] (-) TimerEvent: {}
+[4.857314] (sample4) JobProgress: {'identifier': 'sample4', 'progress': 'install'}
+[4.869327] (sample4) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4'], 'cwd': '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangcb'), ('SSH_CLIENT', '192.168.31.1 52464 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangcb'), ('OLDPWD', '/home/yangcb/Desktop/ROS2_Sample/sample4/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yangcb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '55'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4'), ('SSH_CONNECTION', '192.168.31.1 52464 192.168.31.129 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.880306] (sample4) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.880648] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4\n'}
+[4.883191] (sample4) StdoutLine: {'line': b'-- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4" to ""\n'}
+[4.883432] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/package_run_dependencies/sample4\n'}
+[4.883754] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/parent_prefix_path/sample4\n'}
+[4.884008] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.sh\n'}
+[4.884274] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.dsv\n'}
+[4.884623] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.sh\n'}
+[4.884926] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.dsv\n'}
+[4.885251] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.bash\n'}
+[4.885566] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.sh\n'}
+[4.885910] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.zsh\n'}
+[4.886209] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.dsv\n'}
+[4.886511] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.dsv\n'}
+[4.886894] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/packages/sample4\n'}
+[4.887080] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config.cmake\n'}
+[4.887467] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config-version.cmake\n'}
+[4.887730] (sample4) StdoutLine: {'line': b'-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.xml\n'}
+[4.889991] (sample4) CommandEnded: {'returncode': 0}
+[4.938388] (-) TimerEvent: {}
+[4.941036] (sample4) JobEnded: {'identifier': 'sample4', 'rc': 0}
+[4.941938] (-) EventReactorShutdown: {}

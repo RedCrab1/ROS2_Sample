@@ -1,0 +1,4 @@
+Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4 -DCMAKE_INSTALL_PREFIX=/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4
+Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yangcb/Desktop/ROS2_Sample/sample4/src/sample4 -DCMAKE_INSTALL_PREFIX=/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4
+Invoking command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2
+Invoked command in '/home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/sample4/build/sample4 -- -j2 -l2

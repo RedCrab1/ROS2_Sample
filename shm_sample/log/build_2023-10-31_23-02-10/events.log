@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (shm_test) JobQueued: {'identifier': 'shm_test', 'dependencies': OrderedDict()}
+[0.000602] (shm_test) JobStarted: {'identifier': 'shm_test'}
+[0.015986] (shm_test) JobProgress: {'identifier': 'shm_test', 'progress': 'cmake'}
+[0.016290] (shm_test) Command: {'cmd': ['/usr/bin/cmake', '/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test', '-DCMAKE_INSTALL_PREFIX=/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test'], 'cwd': '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangcb'), ('SSH_CLIENT', '192.168.31.1 54094 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangcb'), ('OLDPWD', '/home/yangcb/Desktop/ROS2_Sample'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yangcb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '37'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test'), ('SSH_CONNECTION', '192.168.31.1 54094 192.168.31.129 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.091199] (-) TimerEvent: {}
+[0.107898] (shm_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.168544] (shm_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.172918] (shm_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.191406] (-) TimerEvent: {}
+[0.248666] (shm_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.251201] (shm_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.291568] (-) TimerEvent: {}
+[0.319321] (shm_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.327116] (shm_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.327648] (shm_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.330155] (shm_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.391668] (-) TimerEvent: {}
+[0.420300] (shm_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.426344] (shm_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.491809] (-) TimerEvent: {}
+[0.507349] (shm_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.515614] (shm_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.516373] (shm_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.518612] (shm_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.542313] (shm_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.543033] (shm_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.591924] (-) TimerEvent: {}
+[0.692724] (-) TimerEvent: {}
+[0.771048] (shm_test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.792900] (-) TimerEvent: {}
+[0.813745] (shm_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.820148] (shm_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.895167] (-) TimerEvent: {}
+[0.898042] (shm_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.925351] (shm_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.995302] (-) TimerEvent: {}
+[1.001229] (shm_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.055990] (shm_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.057690] (shm_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.058746] (shm_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.095485] (-) TimerEvent: {}
+[1.148148] (shm_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.150991] (shm_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.195619] (-) TimerEvent: {}
+[1.223394] (shm_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.227116] (shm_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.284579] (shm_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.287127] (shm_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.295788] (-) TimerEvent: {}
+[1.356637] (shm_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.359068] (shm_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.395966] (-) TimerEvent: {}
+[1.496671] (-) TimerEvent: {}
+[1.522952] (shm_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.596858] (-) TimerEvent: {}
+[1.608201] (shm_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.609440] (shm_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.609836] (shm_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/include>\n'}
+[1.609949] (shm_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.611012] (shm_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.611106] (shm_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.612079] (shm_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.613207] (shm_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.613301] (shm_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.613938] (shm_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.617410] (shm_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.624387] (shm_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.626188] (shm_test) StdoutLine: {'line': b'-- Build files have been written to: /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test\n'}
+[1.634811] (shm_test) CommandEnded: {'returncode': 0}
+[1.636472] (shm_test) JobProgress: {'identifier': 'shm_test', 'progress': 'build'}
+[1.636548] (shm_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test', '--', '-j2', '-l2'], 'cwd': '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangcb'), ('SSH_CLIENT', '192.168.31.1 54094 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangcb'), ('OLDPWD', '/home/yangcb/Desktop/ROS2_Sample'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yangcb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '37'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test'), ('SSH_CONNECTION', '192.168.31.1 54094 192.168.31.129 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.683215] (shm_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target shm_test\x1b[0m\n'}
+[1.696983] (-) TimerEvent: {}
+[1.723105] (shm_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shm_test.dir/src/shm_test.cpp.o\x1b[0m\n'}
+[1.797132] (-) TimerEvent: {}
+[1.898755] (-) TimerEvent: {}
+[1.999424] (-) TimerEvent: {}
+[2.100012] (-) TimerEvent: {}
+[2.200868] (-) TimerEvent: {}
+[2.301420] (-) TimerEvent: {}
+[2.402026] (-) TimerEvent: {}
+[2.502643] (-) TimerEvent: {}
+[2.603279] (-) TimerEvent: {}
+[2.703949] (-) TimerEvent: {}
+[2.804532] (-) TimerEvent: {}
+[2.905163] (-) TimerEvent: {}
+[3.005735] (-) TimerEvent: {}
+[3.106439] (-) TimerEvent: {}
+[3.207015] (-) TimerEvent: {}
+[3.307562] (-) TimerEvent: {}
+[3.408205] (-) TimerEvent: {}
+[3.508833] (-) TimerEvent: {}
+[3.609446] (-) TimerEvent: {}
+[3.710022] (-) TimerEvent: {}
+[3.810736] (-) TimerEvent: {}
+[3.911562] (-) TimerEvent: {}
+[4.012163] (-) TimerEvent: {}
+[4.112769] (-) TimerEvent: {}
+[4.214476] (-) TimerEvent: {}
+[4.315442] (-) TimerEvent: {}
+[4.416388] (-) TimerEvent: {}
+[4.448934] (shm_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimeBase\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTimerBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.449203] (shm_test) StderrLine: {'line': b'   28 |  rclcpp::\x1b[01;31m\x1b[KTimeBase\x1b[m\x1b[K::SharedPtr timer_;\n'}
+[4.449304] (shm_test) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.449363] (shm_test) StderrLine: {'line': b'      |          \x1b[32m\x1b[KTimerBase\x1b[m\x1b[K\n'}
+[4.463298] (shm_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPubNode::PubNode(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.463506] (shm_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:11:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSystemDefaultsQos\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KSystemDefaultsQoS\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.463597] (shm_test) StderrLine: {'line': b'   11 |    rclcpp::\x1b[01;31m\x1b[KSystemDefaultsQos\x1b[m\x1b[K());\n'}
+[4.463657] (shm_test) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.463740] (shm_test) StderrLine: {'line': b'      |            \x1b[32m\x1b[KSystemDefaultsQoS\x1b[m\x1b[K\n'}
+[4.485772] (shm_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.486035] (shm_test) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(500ms, topictimer_callback);\n'}
+[4.486102] (shm_test) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.486159] (shm_test) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[4.516511] (-) TimerEvent: {}
+[4.617183] (-) TimerEvent: {}
+[4.717775] (-) TimerEvent: {}
+[4.818528] (-) TimerEvent: {}
+[4.919245] (-) TimerEvent: {}
+[5.020039] (-) TimerEvent: {}
+[5.120619] (-) TimerEvent: {}
+[5.221283] (-) TimerEvent: {}
+[5.261850] (shm_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/shm_test.dir/build.make:63: CMakeFiles/shm_test.dir/src/shm_test.cpp.o] Error 1\n'}
+[5.263589] (shm_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/shm_test.dir/all] Error 2\n'}
+[5.263690] (shm_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.266459] (shm_test) CommandEnded: {'returncode': 2}
+[5.321781] (-) TimerEvent: {}
+[5.322948] (shm_test) JobEnded: {'identifier': 'shm_test', 'rc': 2}
+[5.327112] (-) EventReactorShutdown: {}

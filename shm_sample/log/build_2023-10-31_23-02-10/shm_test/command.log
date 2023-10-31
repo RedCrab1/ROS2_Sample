@@ -1,0 +1,4 @@
+Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test -DCMAKE_INSTALL_PREFIX=/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test
+Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test -DCMAKE_INSTALL_PREFIX=/home/yangcb/Desktop/ROS2_Sample/shm_sample/install/shm_test
+Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2

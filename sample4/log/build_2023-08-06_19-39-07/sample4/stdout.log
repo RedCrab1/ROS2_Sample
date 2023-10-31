@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target sample4[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sample4.dir/src/sample4.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sample4[0m
+[100%] Built target sample4
+-- Install configuration: ""
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4
+-- Set runtime path of "/home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/lib/sample4/sample4" to ""
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/package_run_dependencies/sample4
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/parent_prefix_path/sample4
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/ament_prefix_path.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/environment/path.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.bash
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.sh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.zsh
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/local_setup.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.dsv
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/ament_index/resource_index/packages/sample4
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config.cmake
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/cmake/sample4Config-version.cmake
+-- Installing: /home/yangcb/Desktop/ROS2_Sample/sample4/install/sample4/share/sample4/package.xml

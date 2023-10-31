@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
+[0.097s] [35m[1mScanning dependencies of target shm_test[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/shm_test.dir/src/shm_test.cpp.o[0m
+[1.635s] [01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.635s] [01m[K/home/yangcb/Desktop/ROS2_Sample/shm_sample/shm_test/src/shm_test.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_spin[m[K’ was not declared in this scope; did you mean ‘[01m[Kexecutor_[m[K’?
+[1.635s]    40 |   [01;31m[Kexecutor_spin[m[K();
+[1.636s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.636s]       |   [32m[Kexecutor_[m[K
+[2.655s] make[2]: *** [CMakeFiles/shm_test.dir/build.make:63: CMakeFiles/shm_test.dir/src/shm_test.cpp.o] Error 1
+[2.661s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/shm_test.dir/all] Error 2
+[2.661s] make: *** [Makefile:141: all] Error 2
+[2.661s] Invoked command in '/home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yangcb/Desktop/ROS2_Sample/shm_sample/build/shm_test -- -j2 -l2
